@@ -74,6 +74,8 @@ header
 {
 	display: flex;
 	justify-content: space-around;
+	max-width: 1100px;
+	margin: auto;
 }
 
 .logo
@@ -172,10 +174,12 @@ header
 
 .product
 {
-	flex-basis: 23%;
-	width: 23%;
+	flex-basis: 25%;
+	min-width: 100px;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 3px 3px 3px #838588;
+	border-radius: 5px;
 }
 
 .product img
@@ -191,6 +195,11 @@ header
 	padding: 20px;
 }
 
+.product-info p
+{
+	padding: 0;
+}
+
 .our-attitude-content
 {
 display: flex;
@@ -199,13 +208,13 @@ display: flex;
 footer
 {
 	background-color: #303339;
-	padding: 30px 0 30px 0;
 	text-align: center;
 }
 
 footer p 
 {
 	color: white;
+	padding: 30px 0 30px 0;
 }
 
 
